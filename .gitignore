@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# KiCad
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.bak
+*.kicad_sch-bak
+*-bak
+_autosave-*
+~*.lck
+*.lck
+fp-lib-table.bak
+
+# Arduino build output
+build/
+*.elf
+*.bin
+*.hex
+*.map
+
+# Secrets
+firmware/airquality/secrets.h
+
+# OS / archive junk
+.DS_Store
+Thumbs.db
+__MACOSX/
+*.zip
