@@ -65,8 +65,6 @@ indoor-air-monitor/
 │   ├── kicad/              # .kicad_pro, .kicad_sch, .kicad_pcb
 │   └── schematic.pdf
 ├── data/
-│   ├── thermistor_calibration.csv
-│   └── thingspeak_export.csv
 └── docs/
     ├── report.pdf
     ├── BOM.md
