@@ -59,8 +59,7 @@ The copper pad is the only input. Tap to cycle, hold for 1.5 s to select or go b
 indoor-air-monitor/
 ├── README.md
 ├── firmware/
-│   └── airquality/
-│       └── airquality.ino
+│   └── airquality.ino
 ├── hardware/
 │   ├── kicad/              # .kicad_pro, .kicad_sch, .kicad_pcb
 │   └── schematic.pdf
@@ -75,7 +74,7 @@ indoor-air-monitor/
 
 1. Install the Arduino IDE with ESP32 board support.
 2. Install the Adafruit BME280, Adafruit SGP30, LiquidCrystal_I2C, and ThingSpeak libraries.
-3. Put your WiFi credentials and ThingSpeak API key in `firmware/airquality/secrets.h` (not committed).
+3. Put your WiFi credentials and ThingSpeak API key in `firmware/secrets.h` (not committed).
 4. Upload `airquality.ino` to the ESP32.
 
 ## Limitations

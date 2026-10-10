@@ -24,7 +24,7 @@ build/
 *.map
 
 # Secrets
-firmware/airquality/secrets.h
+firmware/secrets.h
 
 # OS / archive junk
 .DS_Store
